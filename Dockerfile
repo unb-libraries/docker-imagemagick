@@ -3,8 +3,8 @@ MAINTAINER Jacob Sanford <jsanford_at_unb.ca>
 
 RUN apt-get --yes update && \
   apt-get --yes install \
-    imagemagick
-    wget
+    imagemagick \
+    wget \
     bc && \
   mkdir -p /app && \
   wget -O /app/textcleaner "http://www.fmwconcepts.com/imagemagick/downloadcounter.php?scriptname=textcleaner&dirname=textcleaner" && \
