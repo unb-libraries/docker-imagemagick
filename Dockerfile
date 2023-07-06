@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:bullseye
 MAINTAINER Jacob Sanford <jsanford_at_unb.ca>
 
 RUN apt-get --yes update && \
@@ -13,3 +13,5 @@ RUN apt-get --yes update && \
   chmod +x /app/magick-slicer.sh && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
+
+COPY ./policy.xml /etc/ImageMagick-6/policy.xml
