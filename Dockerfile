@@ -15,3 +15,13 @@ RUN apt-get --yes update && \
   rm -rf /var/lib/apt/lists/*
 
 COPY ./policy.xml /etc/ImageMagick-6/policy.xml
+
+# Container metadata.
+LABEL com.microscaling.docker.dockerfile="/Dockerfile" \
+  com.microscaling.license="MIT" \
+  org.label-schema.description="Imagemagick processing image" \
+  org.label-schema.name="docker-imagemagick" \
+  org.label-schema.schema-version="1.0" \
+  org.label-schema.vcs-url="https://github.com/unb-libraries/docker-imagemagick" \
+  org.label-schema.vendor="University of New Brunswick Libraries" \
+  org.opencontainers.image.source="https://github.com/unb-libraries/docker-imagemagick"
