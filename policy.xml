@@ -57,13 +57,13 @@
 -->
 <policymap>
   <!-- <policy domain="resource" name="temporary-path" value="/tmp"/> -->
-  <policy domain="resource" name="memory" value="2GiB"/>
-  <policy domain="resource" name="map" value="4GiB"/>
-  <policy domain="resource" name="width" value="128KP"/>
-  <policy domain="resource" name="height" value="128KP"/>
+  <!-- <policy domain="resource" name="memory" value="2GiB"/> -->
+  <!-- <policy domain="resource" name="map" value="4GiB"/> -->
+  <!-- <policy domain="resource" name="width" value="128KP"/> -->
+  <!-- <policy domain="resource" name="height" value="128KP"/> -->
   <!-- <policy domain="resource" name="list-length" value="128"/> -->
-  <policy domain="resource" name="area" value="1.0737GP"/>
-  <policy domain="resource" name="disk" value="8GiB"/>
+  <!-- <policy domain="resource" name="area" value="1.0737GP"/> -->
+  <!-- <policy domain="resource" name="disk" value="8GiB"/> -->
   <!-- <policy domain="resource" name="file" value="768"/> -->
   <policy domain="resource" name="thread" value="1"/>
   <!-- <policy domain="resource" name="throttle" value="0"/> -->
@@ -73,7 +73,7 @@
   <!-- <policy domain="path" rights="none" pattern="@*" /> -->
   <!-- <policy domain="cache" name="memory-map" value="anonymous"/> -->
   <!-- <policy domain="cache" name="synchronize" value="True"/> -->
-  <!-- <policy domain="cache" name="shared-secret" value="passphrase" stealth="true"/>
+  <!-- <policy domain="cache" name="shared-secret" value="passphrase" stealth="true"/>  -->
   <!-- <policy domain="system" name="max-memory-request" value="256MiB"/> -->
   <!-- <policy domain="system" name="shred" value="2"/> -->
   <!-- <policy domain="system" name="precision" value="6"/> -->
