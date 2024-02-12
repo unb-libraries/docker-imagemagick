@@ -3,6 +3,7 @@ MAINTAINER Jacob Sanford <jsanford_at_unb.ca>
 
 RUN apt-get --yes update && \
   apt-get --yes install \
+    exactimage \
     imagemagick \
     wget \
     bc && \
