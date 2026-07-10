@@ -1,5 +1,6 @@
 FROM debian:bullseye
-MAINTAINER Jacob Sanford <jsanford_at_unb.ca>
+
+LABEL org.opencontainers.image.authors="Jacob Sanford <jsanford_at_unb.ca>"
 
 RUN apt-get --yes update && \
   apt-get --yes install \
